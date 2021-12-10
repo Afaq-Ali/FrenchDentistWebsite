@@ -1,0 +1,216 @@
+.miniheadertxt{
+    margin: 0.6rem 0 0 1.5rem;
+}
+.upperheader{
+    background-color: #183047;
+    color: #FFFFFF;
+    height: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.abouthero{
+    margin-top: -4.5rem;
+}
+.socialicons{
+    margin: 0.7rem 3rem 0 0;
+}
+.icon{
+    margin-left: 0.7rem;
+}
+.firstimg{
+    height: 2rem;
+    width: auto;
+    margin-right: 0.3rem;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    z-index: 99;
+}
+.heroimg{
+    width: 50%;
+    height: auto;
+    float: left;
+    margin-top: -4.5rem;
+}
+.herosection{
+    position: absolute;
+    top: 18%;
+    width: 100%;
+    float: right;
+    height: 117vh;
+    background-color: rgba(255, 253, 253, 0.2);
+    margin-top: -4.5rem;
+}
+.hometxt1{
+    position: absolute;
+    top: 85%;
+    text-align: center;
+    width: 100%;
+}
+.section1{
+    clear: both;
+    display: flex;
+    flex-direction: row;
+    padding: 15% 10%;
+}
+hr{
+    width: 20%;
+    height: 5%;
+}
+.secttext{
+    width: 50%;
+    margin-right: 10%;
+}
+.homeimg2{
+    width: 400px;
+    height: auto;
+    padding-top: 10%;
+}
+.homeimg3{
+    position: relative;
+    top: -50%;
+    left: 40%;
+    height: 40%;
+    z-index: -111;
+}
+.homeservices{
+    background-color: #FAFAFA;
+    padding: 10% 15%;
+}
+.servtab{
+    display: flex;
+    flex-direction: row;
+    padding: 5% 0;
+}
+.homescroll{
+    display: flex;
+    flex-direction: row;
+    margin: 10% 7%;
+}
+.homebilling{
+    background-color: #FAFAFA;
+    padding: 10%;
+}
+.billingsect{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+}
+.aboutsect{
+    display: flex;
+    flex-direction: row;
+    padding: 5% 2%;
+}
+.aboutsect1{
+    background-color: #F3F4F9;
+    text-align: center;
+    padding: 10%;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+.aboutsect2{
+    display: flex;
+    flex-direction: row;
+}
+.aboutsect3{
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    padding: 2% 10%;
+}
+.sect4{
+    display: flex;
+    flex-direction: row;
+}
+.teamcover{
+    width: 100%;
+    height: auto;
+    margin-top: -4.5rem;
+}
+.teamhero{
+    position: absolute;
+    top: 50%;
+    width: 40%;
+    margin: 0 5%;
+}
+.teamsect{
+    background-color: #F6F6F9;
+    display: flex;
+    flex-direction: row;
+    padding: 0 5%;
+}
+.carepage{
+    background-color: #F6F6F9;
+}
+.carehero{
+    margin-top: -4.5rem;
+}
+.caresect{
+    width: 20%;
+    height: 20%;
+    /* border: 2px solid black; */
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 50px 50px 50px 50px rgba(255, 253, 253, 0.1);
+ }
+ .sectimg{
+     /* width: 5rem; */
+     /* height: auto; */
+     padding: 10px;
+     border-radius: 50px;
+     background-color: royalblue;
+ }
+ .caresect2{
+     width: 30%;
+     background-color: white;
+     text-align: center;
+ }
+ .blogpage{
+     background-color: #F6F6F9;
+ }
+ .herotext{
+     background-color: white;
+     width: 25%;
+     position: absolute;
+     top: 30%;
+     left:8%;
+     padding: 2%;
+ }
+ .blogsect{
+     display: flex;
+     flex-direction: row;
+ }
+ .blogsect2{
+     display: flex;
+     flex-direction: row;
+     margin: 10% 5%;
+ }
+ .contacthero{
+     margin-top: -4.5rem;
+ }
+.footer{
+    clear: both;
+    color: white;
+}
+.footeradd{
+    display: flex;
+    flex-direction: row;
+    padding: 0 7% 3%;
+}
+.upperfooter{
+    background-color: #8498A4;
+}
+.lowerfooter{
+    background-color: #64737C;
+}
+.footernav{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: center;
+    font-weight: bolder;
+}
