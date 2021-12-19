@@ -73,9 +73,10 @@ function App() {
       <div className="footer">
         <footer className="upperfooter">
           <div className="text-center pt-5">
-            <b>FRENCH DENTIST</b> <br></br> We do it for you
+            <div className="fontsizefooter font-weight-450">FRENCH DENTIST</div>
+            <div className="fontsizefooter1">We do it for you</div>
           </div>
-        <hr />
+        <hr className="hrfooter"/>
         <div className="footeradd">
             <div>
               <div className="text-justify mr-5">
@@ -108,7 +109,7 @@ function App() {
               <li className="mr-3 mt-5">Veneers</li>
             </ul>
           </div>
-          <hr />
+          <hr className="hrfooter1"/>
           <div className="text-center pb-5">© 2021 French Dentist. All rights reserved.</div> </div>
       </div>
 

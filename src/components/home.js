@@ -10,14 +10,14 @@ function Home() {
             </div>
 
             <div className="hometxt1">
-                <div>Premium Dentists in <br></br> Central Shanghai</div>
-                <div>At French Dentist, we strive to maintain</div>
+                <div className="caretext text-center font-weight-bold mt-5 ">Premium Dentists in <br></br> Central Shanghai</div>
+                <h4 className="mt-5">At French Dentist, we strive to maintain</h4>
             </div>
             
             <div className="section1">
                 <div className="secttext">
-                    <h1 className="ml-5">Who We Are</h1>
-                    <hr />
+                    <div className="caretext text-center font-weight-bolder ml-5">Who We Are</div>
+                <hr className="hroverall" />
                     <p className="text-justify">
                         French Dentist was established in 2007 and proved its constant commitment to 
                         provide high quality treatment to both the expatriate and Shanghainese community.
@@ -30,7 +30,7 @@ function Home() {
                         We understand that first-rate state-of-the-art equipment, highly-educated and friendly 
                         staff, and a wide range of services are qualities that are on the top of your expectations. 
                     </p>
-                    <button>Read More</button>
+                    <div className="webbtn ">Read More</div>
                 </div>
                 <div>
                     <img className="homeimg2" src="./homepics/section.png" alt="" />
@@ -39,8 +39,8 @@ function Home() {
             </div>
 
             <div className="homeservices">
-                <div className="text-center font-weight-bold">Our Services</div>
-                <hr />
+            <div className="caretext text-center font-weight-bolder mt-5 ">Our Services</div>
+                <hr className="hroverall" />
                 <div className="servtab">
                     <div><img src="./homepics/noun_dental care_3740157 2.png" alt="" /></div>
                     <div className="ml-5">
@@ -92,11 +92,11 @@ function Home() {
             </div>
 
             <div>
-                <div className="text-center font-weight-bold">What Our Patients Say</div>
-                <hr />
+            <div className="caretext text-center font-weight-bolder mt-5 ">What Our Patients Say</div>
+                <hr className="hroverall" />
                 <div className="homescroll">
                     <div>
-                        <img src="./homepics/Group 6.png" alt="" />
+                        <img className="homeresimg" src="./homepics/Group 6.png" alt="" />
                     </div>
                     <div className="ml-5">
                         <div> <img className="mb-5" src="./homepics/fa-solid_quote-left.png" alt="" /></div>
@@ -112,9 +112,9 @@ function Home() {
             </div>
 
             <div className="homebilling">
-                <div className="text-center font-weight-bold">Direct Billing Facility</div>
-                <hr />
-                <div className="billingsect">
+            <div className="caretext text-center font-weight-bolder mt-5 ">Direct Billing Facility</div>
+                <hr className="hroverall mt-5" />
+                <div className="billingsect mt-5">
                     <div>
                         <img src="./homepics/banda.png" alt="" />
                         <div className="font-weight-bolder mt-3">Simplified Process</div>

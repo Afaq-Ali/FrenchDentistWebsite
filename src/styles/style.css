@@ -1,3 +1,23 @@
+.navbar{
+    z-index: 9999;
+}
+.webbtn{
+    background-color: #E9CCAE;
+    color: white;
+    padding: 2% 4%;
+    border-radius: 50px;
+    width: 40%;
+    text-align: center;
+}
+.hroverall{
+    background-color: #183047;
+    width: 20%;
+    height: 2px;
+}
+.centerbt{
+    display: flex;
+    justify-content: center;
+}
 .miniheadertxt{
     margin: 0.6rem 0 0 1.5rem;
 }
@@ -11,6 +31,10 @@
 }
 .abouthero{
     margin-top: -4.5rem;
+    width: 100%;
+}
+.imgwidabout{
+    width: 100%;
 }
 .socialicons{
     margin: 0.7rem 3rem 0 0;
@@ -22,11 +46,6 @@
     height: 2rem;
     width: auto;
     margin-right: 0.3rem;
-}
-.navbar{
-    display: flex;
-    flex-direction: row;
-    z-index: 99;
 }
 .heroimg{
     width: 50%;
@@ -44,8 +63,9 @@
     margin-top: -4.5rem;
 }
 .hometxt1{
-    position: absolute;
-    top: 85%;
+    clear: both;
+    position: relative;
+    bottom: 20rem;
     text-align: center;
     width: 100%;
 }
@@ -78,6 +98,7 @@ hr{
 .homeservices{
     background-color: #FAFAFA;
     padding: 10% 15%;
+    margin-top: -40rem;
 }
 .servtab{
     display: flex;
@@ -98,6 +119,7 @@ hr{
     flex-direction: row;
     justify-content: space-around;
     text-align: center;
+    flex-wrap: wrap;
 }
 .aboutsect{
     display: flex;
@@ -110,10 +132,14 @@ hr{
     padding: 10%;
     font-weight: bolder;
     font-size: 2rem;
+    color: #183047;
 }
 .aboutsect2{
     display: flex;
     flex-direction: row;
+}
+.imgwid{
+    width: 49.5%;
 }
 .aboutsect3{
     display: flex;
@@ -131,8 +157,8 @@ hr{
     margin-top: -4.5rem;
 }
 .teamhero{
-    position: absolute;
-    top: 50%;
+    position: relative;
+    bottom: 550px;
     width: 40%;
     margin: 0 5%;
 }
@@ -142,6 +168,16 @@ hr{
     flex-direction: row;
     padding: 0 5%;
 }
+.teamsect:nth-child(odd){
+    background-color: white;
+}
+.careupper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: -10rem;
+}
 .carepage{
     background-color: #F6F6F9;
 }
@@ -149,36 +185,60 @@ hr{
     margin-top: -4.5rem;
 }
 .caresect{
-    width: 20%;
-    height: 20%;
-    /* border: 2px solid black; */
-    text-align: center;
     background-color: white;
+    font-size: 12px;
+    width: 20%;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    text-align: center;
     padding: 20px;
-    box-shadow: 50px 50px 50px 50px rgba(255, 253, 253, 0.1);
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.1);
+ }
+ .caresect:hover{
+     background-color: #C1DDE5;
+     box-shadow: none;
+ }
+ .caretext{
+     font-size: 50px;
+     color: #183047;
+ }
+ .carecard{
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+ }
+ .carecardimg{
+    position: relative;
+    top: -48px;
+    left: -49px;
+    width: 131%;
+ }
+ .cardheading{
+     color: #014F86;
  }
  .sectimg{
      /* width: 5rem; */
      /* height: auto; */
      padding: 10px;
      border-radius: 50px;
-     background-color: royalblue;
+     background-color: rgb(225, 228, 236);
  }
  .caresect2{
      width: 30%;
      background-color: white;
      text-align: center;
  }
- .blogpage{
-     background-color: #F6F6F9;
- }
  .herotext{
      background-color: white;
      width: 25%;
-     position: absolute;
-     top: 30%;
      left:8%;
      padding: 2%;
+     position: relative;
+     bottom: 26rem;
+ }
+ .blogbtn{
+     margin-top: 20px;
+     display: flex;
+     justify-content: space-between
  }
  .blogsect{
      display: flex;
@@ -189,8 +249,53 @@ hr{
      flex-direction: row;
      margin: 10% 5%;
  }
+ .blogbtnsty{
+     text-align: center;
+     width: 30%;
+     color: white;
+     background-color: #0E4963;
+     padding: 2% 0;
+     border-radius: 12px;
+     font-weight: bolder;
+ }
  .contacthero{
      margin-top: -4.5rem;
+ }
+ .contactdetails{
+     width: 80%;
+     margin: 50px 10%;
+ }
+ .contactpros{
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     justify-content: space-around;
+     margin: 5% 3%;
+     color: #0E4963;
+ }
+ .pcon{
+     font-size: 18px;
+ }
+ .contactsect{
+     display: flex;
+     flex-direction: row;
+ }
+ .contactlst{
+     width: 40%;
+     margin: 5% 5%;
+ }
+ .contactlast{
+     display: flex;
+     flex-direction: row;
+ }
+ .map{
+     display: flex;
+     flex-direction: row;
+     background-color: #F6F6F9;
+ }
+ .conmap{
+     width: 90%;
+     margin: 55% 0% 20% 0;
  }
 .footer{
     clear: both;
@@ -214,3 +319,166 @@ hr{
     justify-content: center;
     font-weight: bolder;
 }
+.fontsizefooter{
+    font-size: 80px;
+}
+.fontsizefooter1{
+    font-size: 40px;
+}
+.hrfooter{
+    background-color: white;
+    width: 80%;
+    height: 2px;
+}
+.hrfooter1{
+    background-color: white;
+    width: 70%;
+}
+
+
+@media screen and (max-width: 1050px) {
+    .homescroll{
+        display: flex;
+        flex-direction: column;
+        margin: 5%;
+    }
+    .homeresimg{
+        width: 100%;
+        margin-bottom: 2.5rem;
+    }
+    .homeservices{
+        margin-top: -20rem;
+    }
+    .aboutsect2{
+        display: flex;
+        flex-direction: column;
+    }
+    .imgwid{
+        width: 100%;
+    }
+    .sect4{
+        display: flex;
+        flex-direction: column;
+    }
+    .aboutsect3{
+        width: 100%;
+    }
+    .teamsect{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .webbtn{
+        width: 50%;
+    }
+    .herotext{
+        width: 40%;
+        position: relative;
+        bottom: 22rem;
+    }
+    .blogsect2{
+        display: flex;
+        flex-direction: column;
+    }
+    .teamhero{
+        position: relative;
+        bottom: 400px;
+    }
+  }
+
+  @media screen and (max-width: 1000px) {
+    .heroimg{
+        margin-top: -3.3rem;
+    }
+    .section1{
+        clear: both;
+        display: flex;
+        flex-direction: column;
+    }
+    .homeimg2{
+        width: 80%;
+        margin-top: 10%;
+    }
+    .secttext{
+        width: 100%;
+        margin-right: 10%;
+        margin-top: -20%;
+    }
+    .homeimg3{
+        position: relative;
+        bottom: 750px;
+        left: 50%;
+        height: 40%;
+        z-index: -111;
+    }
+    .homeservices{
+        background-color: #FAFAFA;
+        padding: 10% 15%;
+        margin-top: -41rem;
+    }
+    .abouthero{
+        margin-top: -3.5rem;
+    }
+    .teamcover{
+        margin-top: -3.5rem;
+    }
+    .carehero{
+        margin-top: -3.5rem;
+    }
+    .herotext{
+        width: 50%;
+        position: relative;
+        bottom: 20rem;
+    }
+    .contacthero{
+        margin-top: -3.5rem;
+    }
+  }
+  @media screen and (max-width: 800px) {
+    .hometxt1{
+        clear: both;
+        position: relative;
+        bottom: 15rem;
+    }
+    .homeimg3{
+        position: relative;
+        top: -620px;
+    }
+    .careupper{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        margin-top: 0;
+        width: 100%;
+    }
+    .caresect{
+        width: 45%;
+        text-align: center;
+        margin: 2% 0;
+     } 
+     .carecard{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        width: 100%;
+        margin-left: 20%;
+    }
+    .caresect2{
+        width: 50%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .herotext{
+        width: 64%;
+        bottom: 15rem;
+        font-size: 10px;
+    }
+    .blogsect{
+        display: flex;
+        flex-direction: column;
+    }
+    .footeradd{
+        display: flex;
+        flex-direction: column;
+    }
+  }

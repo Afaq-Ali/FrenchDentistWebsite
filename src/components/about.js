@@ -30,32 +30,32 @@ function About() {
                     finest ceramists. Quality creates long lasting relationships- and thats what's important to
                     me.”
                 </div>
-                <hr />
+                <hr className="hroverall" />
                 <div>
                     Dr. Louis Costa
                 </div>
             </div>
 
             <div>
-                <img src="./homepics/aboutimg.png" alt="" />
+                <img className="imgwidabout" src="./homepics/aboutimg.png" alt="" />
             </div>
 
             <div className="aboutsect1">
                 <div>
                     “I have received amazing service and treatment. I would certainly recommend with great confidence”
                 </div>
-                <hr />
+                <hr className="hroverall" />
                 <div>Katie, patient</div>
             </div>
 
             <div className="aboutsect2">
-                <img src="./homepics/aboutimg1.png" alt="" />
-                <img className="ml-2" src="./homepics/aboutimg2.png" alt="" />
+                <img className="imgwid mb-3" src="./homepics/aboutimg1.png" alt="" />
+                <img className="ml-2 imgwid" src="./homepics/aboutimg2.png" alt="" />
             </div>
 
             <div className="mb-5">
-                <div className="text-center font-weight-bold mt-5">Our Locations</div>
-                <hr />
+                <div className="caretext text-center font-weight-bolder mt-5 ">Our Locations</div>
+                <hr className="hroverall" />
                 <div className="sect4">
                     <div className="aboutsect3 mr-5">
                         <img className="mr-4" src="./homepics/jimao.png" alt="" />
