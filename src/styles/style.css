@@ -191,7 +191,7 @@ hr{
     border: 2px solid rgba(0, 0, 0, 0.1);
     text-align: center;
     padding: 20px;
-    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 4px 4px 4px 4px rgba(170, 168, 168, 0.1);
  }
  .caresect:hover{
      background-color: #C1DDE5;
@@ -460,8 +460,8 @@ hr{
         display: flex;
         flex-direction: column;
         align-content: center;
+        align-items: center;
         width: 100%;
-        margin-left: 20%;
     }
     .caresect2{
         width: 50%;
@@ -480,5 +480,42 @@ hr{
     .footeradd{
         display: flex;
         flex-direction: column;
+    }
+  }
+  @media screen and (max-width: 700px) {
+    .homeimg3{
+            position: relative;
+            top: -550px;
+            height: 530px;
+    }
+    .footernav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .teamhero{
+        position: relative;
+        bottom: 300px;
+        width: 50%;
+        margin: 0 5%;
+    }
+    .herotext{
+        width: 62%;
+        bottom: 13rem;
+        font-size: 8.5px;
+    }
+    .blogbtn{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .blogbtnsty{
+        margin-top: 2%;
+    }
+    .homeservices{
+        background-color: #FAFAFA;
+        padding: 10% 15%;
+        margin-top: -35rem;
     }
   }
