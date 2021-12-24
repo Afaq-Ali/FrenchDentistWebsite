@@ -519,3 +519,96 @@ hr{
         margin-top: -35rem;
     }
   }
+  @media screen and (max-width: 577px) {
+    .upperheader{
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            height: 6rem;
+    }
+    .herosection{
+        position: absolute;
+        top: 35%;
+        margin-top: -4.5rem;
+        height: 230px;
+    }
+    .socialicons{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 4px;
+    }
+    .caretext{
+        font-size: 25px;
+        padding-top: 40px;
+    }
+    .homeimg3{
+        position: relative;
+        top: -370px;
+        height: 360px;
+    }
+    .subhead{
+        font-size: 15px;
+    }
+    .paddingtophome{
+        padding-top: 150px;
+    }
+    .maintxthome{
+        padding-top: 80px;
+    }
+    .aboutsect{
+        display: flex;
+        flex-direction: column;
+    }
+    .aboutsect3{
+        display: flex;
+        flex-direction: column;
+    }
+    .maintxtteam{
+        margin-top: 50px;
+        width: 139%;
+        font-size: 25px;
+    }
+    .fontsizefooter {
+        font-size: 50px;
+    }
+    .fontsizefooter1{
+        font-size: 30px;
+    }
+  }
+  @media screen and (max-width: 380px) {
+    .secttext{
+        margin-top: -50%;
+    } 
+    .homeimg3{
+        top: -289px;
+        height: 465px;
+        width: 148px;
+}
+    .servtab{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .homefullwid{
+        margin-left: 79px;
+    }
+    .iphone{
+        position: relative;
+        top: -184px;
+    }
+    .iphonetxt{
+        margin-top: 136px;
+        width: 170%;
+    }
+    .carecardimg{
+         width: 206%;
+    }
+    .careparagh{
+    width: 180%;
+    margin-left: -32px;
+    }
+    .webbtn {
+        width: 124%;
+        padding: 7px;
+    }
+  }

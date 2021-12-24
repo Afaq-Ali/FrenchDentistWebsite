@@ -10,13 +10,13 @@ function Home() {
             </div>
 
             <div className="hometxt1">
-                <div className="caretext text-center font-weight-bold mt-5 ">Premium Dentists in <br></br> Central Shanghai</div>
-                <h4 className="mt-5">At French Dentist, we strive to maintain</h4>
+                <div className="caretext maintxthome text-center font-weight-bold mt-5">Premium Dentists in <br></br> Central Shanghai</div>
+                <h4 className="subhead mt-5">At French Dentist, we strive to maintain</h4>
             </div>
             
             <div className="section1">
                 <div className="secttext">
-                    <div className="caretext text-center font-weight-bolder ml-5">Who We Are</div>
+                    <div className="caretext paddinghome text-center font-weight-bolder ml-5">Who We Are</div>
                 <hr className="hroverall" />
                     <p className="text-justify">
                         French Dentist was established in 2007 and proved its constant commitment to 
@@ -39,18 +39,18 @@ function Home() {
             </div>
 
             <div className="homeservices">
-            <div className="caretext text-center font-weight-bolder mt-5 ">Our Services</div>
+            <div className="caretext paddingtophome text-center font-weight-bolder mt-5 ">Our Services</div>
                 <hr className="hroverall" />
                 <div className="servtab">
-                    <div><img src="./homepics/noun_dental care_3740157 2.png" alt="" /></div>
-                    <div className="ml-5">
+                    <div><img className="homefullwid" src="./homepics/noun_dental care_3740157 2.png" alt="" /></div>
+                    <div className="hometxtsect ml-5">
                         <div className="font-weight-bolder mb-3">VENEERS</div>
                         <div>Porcelain veneer is a thin shell of porcelain / ceramic that is bonded onto the 
                             front surface of a tooth so to improve its cosmetic appearance. </div>
                     </div>
                 </div>
                 <div className="servtab">
-                    <div><img src="./homepics/noun_dental care_3740157 2.png" alt="" /></div>
+                    <div><img className="homefullwid" src="./homepics/noun_dental care_3740157 2.png" alt="" /></div>
                     <div className="ml-5">
                         <div className="font-weight-bolder mb-3">WHITENING</div>
                         <div>Our smile says a lot about us to other people. Dazzling white smile creates a 
@@ -58,7 +58,7 @@ function Home() {
                     </div>
                 </div>
                 <div className="servtab">
-                    <div><img src="./homepics/noun_dental care_3740157 2.png" alt="" /></div>
+                    <div><img className="homefullwid" src="./homepics/noun_dental care_3740157 2.png" alt="" /></div>
                     <div className="ml-5">
                         <div className="font-weight-bolder mb-3">IMPLANTOLOGY</div>
                         <div>A dental implant is a metal post that replaces the root of a missing tooth. 
@@ -66,7 +66,7 @@ function Home() {
                     </div>
                 </div>
                 <div className="servtab">
-                    <div><img src="./homepics/noun_dental care_3740157 2.png" alt="" /></div>
+                    <div><img className="homefullwid" src="./homepics/noun_dental care_3740157 2.png" alt="" /></div>
                     <div className="ml-5">
                         <div className="font-weight-bolder mb-3">ORTHODONTICS</div>
                         <div>At French Dentist we pride ourselves on offering a full range of braces using 
@@ -74,7 +74,7 @@ function Home() {
                     </div>
                 </div>
                 <div className="servtab">
-                    <div><img src="./homepics/noun_dental care_3740157 2.png" alt="" /></div>
+                    <div><img className="homefullwid" src="./homepics/noun_dental care_3740157 2.png" alt="" /></div>
                     <div className="ml-5">
                         <div className="font-weight-bolder mb-3">INVISALIGN</div>
                         <div>Apart from the usual orthodontic procedures, which employ brackets (bands, arches) 
@@ -82,7 +82,7 @@ function Home() {
                     </div>
                 </div>
                 <div className="servtab">
-                    <div><img src="./homepics/noun_dental care_3740157 2.png" alt="" /></div>
+                    <div><img className="homefullwid" src="./homepics/noun_dental care_3740157 2.png" alt="" /></div>
                     <div className="ml-5">
                         <div className="font-weight-bolder mb-3">SPEECH THERAPY</div>
                         <div>From birth, children learn to communicate in a variety of ways including through 

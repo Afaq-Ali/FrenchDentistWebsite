@@ -46,7 +46,7 @@ function Care() {
                             <img className="m-0 carecardimg" src="./homepics/careimg1.png" alt="" />
                             <h3 className="cardheading">Cosmetic Dentistry</h3>
                             <hr />
-                            <p>Dr. McCormick is a world-class cosmetic dentist. From whitening to veneers, tooth
+                            <p className="careparagh">Dr. McCormick is a world-class cosmetic dentist. From whitening to veneers, tooth
                                 straightening & more, we offer a wide range of cosmetic dentistry services designed
                                 to help you achieve a smile you’re truly proud of.
                             </p>

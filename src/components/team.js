@@ -6,9 +6,9 @@ function Team() {
         <div>
             <div>
                 <img className="teamcover" src="./homepics/teamhero.png" alt="" />
-                <div className="teamhero">
-                    <h1 className="mb-5">A team of <br /> international dentists</h1>
-                    <p>Our team of highly qualified dentists and specialists comes exclusively from France,
+                <div className="teamhero iphone">
+                    <h1 className="mb-5 maintxtteam ">A team of <br /> international dentists</h1>
+                    <p className="iphonetxt">Our team of highly qualified dentists and specialists comes exclusively from France,
                         Germany and Korea, and they are selected for their commitment to excellent results
                         and quality patient care.</p>
                 </div>
