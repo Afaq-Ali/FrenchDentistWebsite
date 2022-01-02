@@ -1,6 +1,11 @@
 .navbar{
     z-index: 9999;
 }
+.language-select {
+    float: right;
+    z-index: 10000000;
+  }
+
 .webbtn{
     background-color: #E9CCAE;
     color: white;

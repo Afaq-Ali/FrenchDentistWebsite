@@ -1,53 +1,48 @@
 import React from 'react'
 import '../styles/style.css'
+import { useTranslation } from "react-i18next";
 
 function Blog() {
+    const { t } = useTranslation();
     return (
         <div className="ml-5 mr-5 blogpage">
             <div>
                 <img className="  w-100" src="./homepics/blog.png" alt="" />
                 <div className="herotext">
-                    <h2>Teeth Whitening</h2>
-                    <div>Your smile is the first thing people notice about you. Professionally whitening your
-                        teeth can help ensure your smile is making the best impression possible. Dr. McCormick
-                        offers a wide variety of professionally- supervised teeth whitening treatment options
-                        to meet all your needs.</div>
-                        <div className="webbtn mt-5">Read More</div>
+                    <h2>{t("part94")}</h2>
+                    <div>{t("part95")}</div>
+                        <div className="webbtn mt-5">{t("part93")}</div>
                 </div>
             </div>
 
             <div>
-                <h2 className="mt-5 mb-5 cardheading">Professional Teeth Whitening in Central Shanghai</h2>
+                <h2 className="mt-5 mb-5 cardheading">{t("part96")}</h2>
                 <div className="blogsect">
                     <img src="./homepics/blogimg.png" alt="" />
                     <div className="p-2 ml-4">
                         <div className="mt-5">
-                            <h5>Get Peace of Mind with Professional Whitening</h5>
-                            <p>Do-it-yourself tooth whitening products are everywhere but in some cases they can
-                                strip tooth enamel or cause uneven results. Professional whitening treatment is the
-                                safest option for you and your smile.</p>
+                            <h5>{t("part97")}</h5>
+                            <p>{t("part98")}</p>
                         </div>
                         <div className="mt-5">
-                            <h5>See Immediate Results with In-Office Whitening</h5>
-                            <p>We offer in-office whitening for patients who want to have an immediately whiter smile. </p>
+                            <h5>{t("part99")}</h5>
+                            <p>{t("part100")}</p>
                         </div>
                         <div className="mt-5">
-                            <h5>Whiten Gently with At-Home Kits</h5>
-                            <p>If your teeth are sensitive, we offer a supervised at-home whitening product to whiten your
-                                smile gently over time, avoiding some of the tooth sensitivity often associated with
-                                whitening..</p>
+                            <h5>{t("part101")}</h5>
+                            <p>{t("part102")}</p>
                         </div>
                     </div>
                 </div>
             </div>
 
             <div>
-                <h2 className="mt-5">Other Treatments: </h2>
+                <h2 className="mt-5">{t("part103")} </h2>
                 <div className="blogbtn">
-                    <a  className="blogbtnsty mr-5"  href="#">Invisalign</a>
-                    <a  className="blogbtnsty mr-5"  href="#">Orthodontics</a>
-                    <a  className="blogbtnsty mr-5"  href="#">Veneers</a>
-                    <a  className="blogbtnsty mr-5"  href="#">Implantology</a>
+                    <a  className="blogbtnsty mr-5"  href="#">{t("part104")}</a>
+                    <a  className="blogbtnsty mr-5"  href="#">{t("part105")}</a>
+                    <a  className="blogbtnsty mr-5"  href="#">{t("part106")}</a>
+                    <a  className="blogbtnsty mr-5"  href="#">{t("part107")}</a>
                 </div>
             </div>
 
@@ -63,7 +58,7 @@ function Blog() {
                         scelerisque dui, egestas at. Elit consectetur turpis elementum amet vitae et etiam nec.
                         Varius volutpat hac adipiscing tincidunt pretium.
                     </div>
-                    <div className="font-weight-bold mt-5">Elizabeth, Orthodontics patient</div>
+                    <div className="font-weight-bold mt-5">{t("part108")}</div>
                 </div>
             </div>
 
