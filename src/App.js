@@ -3,10 +3,8 @@ import './styles/style.css';
 import { useTranslation } from "react-i18next";
 import LanguageSelect from "./languageSelect";
 import {
-  BrowserRouter as Router,
   Routes,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 import About from './components/about.js';
 import Team from './components/team';
@@ -14,13 +12,14 @@ import Care from './components/care';
 import Blog from './components/blog';
 import Contactus from './components/contactus';
 import Home from './components/home';
+import { Container, Navbar, Nav } from "react-bootstrap";
 
 export default function App() {
   const { t } = useTranslation();
+
+ 
   return (
     <>
-
-      <Router>
         <div className="upperheader">
           <div className="miniheadertxt">
             <img className="firstimg" src="./homepics/Icon.png" alt="" />
@@ -34,37 +33,28 @@ export default function App() {
         </div>
 
         <div >
-          <nav className="navbar navbar-expand-lg navbar-light">
-            <Link className="navbar-brand" to="/">{t("part2")}</Link>
-            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span className="navbar-toggler-icon"></span>
-            </button>
+          <Navbar collapseOnSelect expand="lg" >
+              <Container>
+                <Navbar.Brand className="mainfrlink" href="/">{t("part2")}</Navbar.Brand>
+                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                <Navbar.Collapse id="responsive-navbar-nav">
+                  <Nav className="me-auto navbarrrr">
+                    <Nav.Link className="navelem" href="/about">{t("part3")}</Nav.Link>
+                    <Nav.Link className="navelem" href="/team">{t("part4")}</Nav.Link>
+                    <Nav.Link className="navelem" href="/care">{t("part5")}</Nav.Link>
+                    <Nav.Link className="navelem" href="/blog">{t("part6")}</Nav.Link>
+                    <Nav.Link className="navelem" href="/contactus">{t("part7")}</Nav.Link>
+                    <Nav.Link>  
+                      <div className="language-select">
+                        <LanguageSelect />
+                      </div>
+                    </Nav.Link>
+                  </Nav>
+                </Navbar.Collapse>
+              </Container>
+            </Navbar>
 
-            <div className="collapse navbar-collapse navbar" id="navbarSupportedContent">
-              <ul className="navbar-nav mr-auto">
-                <li className="nav-item">
-                  <Link className="nav-link" to="/about">{t("part3")}</Link>
-                </li>
-                <li className="nav-item">
-                  <Link className="nav-link" to="/team">{t("part4")}</Link>
-                </li>
-                <li className="nav-item">
-                  <Link className="nav-link" to="/care">{t("part5")}</Link>
-                </li>
-                <li className="nav-item">
-                  <Link className="nav-link" to="/blog">{t("part6")}</Link>
-                </li>
-                <li className="nav-item">
-                  <Link className="nav-link" to="/contactus">{t("part7")}</Link>
-                </li>
-                <li>
-                  <div className="language-select">
-                    <LanguageSelect />
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </nav>
+
 
           {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
@@ -123,7 +113,6 @@ export default function App() {
         </div>
 
 
-      </Router>
     </>
   );
 }

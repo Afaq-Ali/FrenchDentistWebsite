@@ -1,6 +1,7 @@
 import React from 'react'
 import '../styles/style.css'
 import { useTranslation } from "react-i18next";
+import Video from '../homevideo.mp4'
 
 function Home() {
     const { t } = useTranslation();
@@ -8,12 +9,15 @@ function Home() {
         <div >
             <div>
                 <div className="herosection"></div>
-                <img className="heroimg" src="./homepics/hero.png" alt="" />
+                <video className="heroimg" autoPlay muted loop>
+                    <source src={Video} type="video/mp4"/>
+                </video>
             </div>
 
-            <div className="hometxt1">
-                <div className="caretext maintxthome text-center font-weight-bold mt-5">{t("part24")}<br></br> {t("part25")}</div>
-                <h4 className="subhead mt-5">{t("part26")}</h4>
+            <div className="hometxt1 text-justify">
+                <div className="caretext maintxthome font-weight-bold mt-2">{t("part24")}<br></br> {t("part25")}</div>
+                <h5 className="subhead mt-2">{t("part26")}</h5>
+                <div className="webbtn ">{t("part30")} </div>
             </div>
             
             <div className="section1">

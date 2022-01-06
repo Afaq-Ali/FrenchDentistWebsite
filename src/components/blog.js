@@ -39,10 +39,10 @@ function Blog() {
             <div>
                 <h2 className="mt-5">{t("part103")} </h2>
                 <div className="blogbtn">
-                    <a  className="blogbtnsty mr-5"  href="#">{t("part104")}</a>
-                    <a  className="blogbtnsty mr-5"  href="#">{t("part105")}</a>
-                    <a  className="blogbtnsty mr-5"  href="#">{t("part106")}</a>
-                    <a  className="blogbtnsty mr-5"  href="#">{t("part107")}</a>
+                    <a  className="blogbtnsty mr-5" >{t("part104")}</a>
+                    <a  className="blogbtnsty mr-5" >{t("part105")}</a>
+                    <a  className="blogbtnsty mr-5" >{t("part106")}</a>
+                    <a  className="blogbtnsty mr-5" >{t("part107")}</a>
                 </div>
             </div>
 

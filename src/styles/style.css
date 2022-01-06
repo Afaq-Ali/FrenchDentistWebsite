@@ -1,5 +1,15 @@
-.navbar{
+.mainfrlink{
     z-index: 9999;
+}
+.navbarrrr{
+    z-index: 99999;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navelem{
+    margin-top: 6px;
 }
 .language-select {
     float: right;
@@ -35,7 +45,7 @@
     justify-content: space-between;
 }
 .abouthero{
-    margin-top: -4.5rem;
+    margin-top: -4.3rem;
     width: 100%;
 }
 .imgwidabout{
@@ -56,7 +66,7 @@
     width: 50%;
     height: auto;
     float: left;
-    margin-top: -4.5rem;
+    margin-top: -4.3rem;
 }
 .herosection{
     position: absolute;
@@ -65,14 +75,15 @@
     float: right;
     height: 117vh;
     background-color: rgba(255, 253, 253, 0.2);
-    margin-top: -4.5rem;
+    margin-top: -4.3rem;
 }
 .hometxt1{
+    float: right;
     clear: both;
     position: relative;
     bottom: 20rem;
-    text-align: center;
-    width: 100%;
+    width: 50%;
+    padding: 0 5% 0;
 }
 .section1{
     clear: both;
@@ -159,7 +170,7 @@ hr{
 .teamcover{
     width: 100%;
     height: auto;
-    margin-top: -4.5rem;
+    margin-top: -4.3rem;
 }
 .teamhero{
     position: relative;
@@ -187,7 +198,7 @@ hr{
     background-color: #F6F6F9;
 }
 .carehero{
-    margin-top: -4.5rem;
+    margin-top: -4.3rem;
 }
 .caresect{
     background-color: white;
@@ -203,7 +214,7 @@ hr{
      box-shadow: none;
  }
  .caretext{
-     font-size: 50px;
+     font-size: 40px;
      color: #183047;
  }
  .carecard{
@@ -264,7 +275,7 @@ hr{
      font-weight: bolder;
  }
  .contacthero{
-     margin-top: -4.5rem;
+     margin-top: -4.3rem;
  }
  .contactdetails{
      width: 80%;
@@ -392,8 +403,22 @@ hr{
   }
 
   @media screen and (max-width: 1000px) {
+    .herosection{
+        height: 136vh;
+        margin-top: -3rem;
+        z-index: -99999;
+    }
+    .hometxt1{
+        text-align: center;
+        clear: both;
+        position: relative;
+        bottom: 20rem;
+        width: 100%;
+        padding: 0 5% 0;
+    }
     .heroimg{
-        margin-top: -3.3rem;
+        width: 100%;
+        margin-top: 0rem;
     }
     .section1{
         clear: both;
@@ -534,7 +559,7 @@ hr{
     .herosection{
         position: absolute;
         top: 35%;
-        margin-top: -4.5rem;
+        margin-top: -4.3rem;
         height: 230px;
     }
     .socialicons{
