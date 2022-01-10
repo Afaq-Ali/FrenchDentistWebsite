@@ -23,7 +23,7 @@ function About() {
             <div className="aboutsect1">
                 <div>{t("part54")}
                 </div>
-                <hr className="hroverall" />
+                <div className='hrr'><span class='line'></span></div>
                 <div>
                 {t("part55")}
                 </div>
@@ -37,7 +37,7 @@ function About() {
                 <div>
                     {t("part56")}
                 </div>
-                <hr className="hroverall" />
+                <div className='hrr'><span class='line'></span></div>
                 <div>{t("part57")}</div>
             </div>
 
@@ -48,7 +48,7 @@ function About() {
 
             <div className="mb-5">
                 <div className="caretext text-center font-weight-bolder mt-5 ">{t("part58")}</div>
-                <hr className="hroverall" />
+                <div><span class='line'></span></div>
                 <div className="sect4">
                     <div className="aboutsect3 mr-5">
                         <img className="mr-4" src="./homepics/jimao.png" alt="" />

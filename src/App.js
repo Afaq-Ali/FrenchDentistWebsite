@@ -27,8 +27,8 @@ export default function App() {
           </div>
           <div className="socialicons">
             <img className="icon" src="./homepics/Instagram.png" alt="" />
-            <img className="icon" src="./homepics/Instagram.png" alt="" />
             <img className="icon" src="./homepics/Twitter.png" alt="" />
+            <img className="icon" src="./homepics/youtube.png" alt="" />
           </div>
         </div>
 
@@ -79,7 +79,7 @@ export default function App() {
               <div className="fontsizefooter font-weight-450">{t("part8")}</div>
               <div className="fontsizefooter1">{t("part9")}</div>
             </div>
-            <hr className="hrfooter" />
+            <span className="hrfooterr"></span>
             <div className="footeradd">
               <div>
                 <div className="text-justify mr-5">

@@ -23,7 +23,8 @@ function Home() {
             <div className="section1">
                 <div className="secttext">
                     <div className="caretext paddinghome text-center font-weight-bolder ml-5">{t("part27")}</div>
-                <hr className="hroverall" />
+        
+                <span class='line'></span>
                     <p className="text-justify">
                         {t("part28")}
                         <br></br>
@@ -41,7 +42,7 @@ function Home() {
 
             <div className="homeservices">
             <div className="caretext paddingtophome text-center font-weight-bolder mt-5 ">{t("part31")}</div>
-                <hr className="hroverall" />
+                <span class='line'></span>
                 <div className="servtab">
                     <div><img className="homefullwid" src="./homepics/noun_dental care_3740157 2.png" alt="" /></div>
                     <div className="hometxtsect ml-5">
@@ -88,7 +89,14 @@ function Home() {
 
             <div>
             <div className="caretext text-center font-weight-bolder mt-5 ">{t("part44")}</div>
-                <hr className="hroverall" />
+                <span class='line'></span>
+
+            </div>
+
+            {/* carousal efect */}
+                <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
+            <div className="carousel-inner">
+                <div className="carousel-item active">
                 <div className="homescroll">
                     <div>
                         <img className="homeresimg" src="./homepics/Group 6.png" alt="" />
@@ -101,11 +109,49 @@ function Home() {
                         <div className="font-weight-bold">{t("part46")}</div>
                     </div>
                 </div>
+                </div>
+                <div className="carousel-item">
+                <div className="homescroll">
+                    <div>
+                        <img className="homeresimg" src="./homepics/Group 6.png" alt="" />
+                    </div>
+                    <div className="ml-5">
+                        <div> <img className="mb-5" src="./homepics/fa-solid_quote-left.png" alt="" /></div>
+                        <div className="text-justify mb-5 text-black-50">
+                        {t("part45")}
+                        </div>
+                        <div className="font-weight-bold">{t("part46")}</div>
+                    </div>
+                </div>
+                </div>
+                <div className="carousel-item">
+                <div className="homescroll">
+                    <div>
+                        <img className="homeresimg" src="./homepics/Group 6.png" alt="" />
+                    </div>
+                    <div className="ml-5">
+                        <div> <img className="mb-5" src="./homepics/fa-solid_quote-left.png" alt="" /></div>
+                        <div className="text-justify mb-5 text-black-50">
+                        {t("part45")}
+                        </div>
+                        <div className="font-weight-bold">{t("part46")}</div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <a className="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span className="sr-only">Previous</span>
+            </a>
+            <a className="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span className="carousel-control-next-icon prebtn" aria-hidden="true"></span>
+                <span className="sr-only">Next</span>
+            </a>
             </div>
 
             <div className="homebilling">
             <div className="caretext text-center font-weight-bolder mt-5 ">{t("part47")}</div>
-                <hr className="hroverall mt-5" />
+                <span class='line'></span>
                 <div className="billingsect mt-5">
                     <div>
                         <img src="./homepics/banda.png" alt="" />

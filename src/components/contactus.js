@@ -70,7 +70,7 @@ function Contactus() {
 
             <div>
                 <div className="caretext text-center font-weight-bolder mt-5 ">{t("part120")}</div>
-                <hr className="hroverall" />
+                <span class='line'></span>
                 <div className="text-center contactpros">
                     <div>
                         <img src="./homepics/banda.png" alt="" />
@@ -96,7 +96,7 @@ function Contactus() {
             <div className="map">
             <div>
             <div className="caretext text-center font-weight-bolder mt-5 ">{t("part124")} </div>
-            <hr className="hroverall" />
+            <span class='line'></span>
             <div className="contactlst">
                 <div className="contactlast">
                     <img className="mr-4" src="./homepics/jimao.png" alt="" />

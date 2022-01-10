@@ -1,3 +1,13 @@
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
+}
+.carousel-control-next-icon{
+    margin-left: 50%;
+}
+.carousel-control-prev-icon {
+    margin-right: 50%;
+}
 .mainfrlink{
     z-index: 9999;
 }
@@ -24,11 +34,18 @@
     width: 40%;
     text-align: center;
 }
-.hroverall{
-    background-color: #183047;
+.line {
+    display: inline-block;
     width: 20%;
-    height: 2px;
-}
+    height: 20px;
+    border-top: 0.2px solid #183047;
+    border-width: initial;
+    margin-top: 15px;
+    margin-left: 44%;
+  }
+  .hrr{
+      width: 70%;
+  }
 .centerbt{
     display: flex;
     justify-content: center;
@@ -73,7 +90,7 @@
     top: 18%;
     width: 100%;
     float: right;
-    height: 117vh;
+    height: 58vh;
     background-color: rgba(255, 253, 253, 0.2);
     margin-top: -4.3rem;
 }
@@ -89,11 +106,7 @@
     clear: both;
     display: flex;
     flex-direction: row;
-    padding: 15% 10%;
-}
-hr{
-    width: 20%;
-    height: 5%;
+    padding: 0% 10% 15%;
 }
 .secttext{
     width: 50%;
@@ -268,7 +281,7 @@ hr{
  .blogbtnsty{
      text-align: center;
      width: 30%;
-     color: white;
+     color: white !important;
      background-color: #0E4963;
      padding: 2% 0;
      border-radius: 12px;
@@ -341,14 +354,23 @@ hr{
 .fontsizefooter1{
     font-size: 40px;
 }
-.hrfooter{
-    background-color: white;
+.hrfooterr {
+    display: inline-block;
     width: 80%;
-    height: 2px;
-}
+    height: 20px;
+    border-top: 0.2px solid white;
+    border-width: initial;
+    margin-top: 15px;
+    margin-left: 10%;
+  }
 .hrfooter1{
-    background-color: white;
+    display: inline-block;
     width: 70%;
+    height: 15px;
+    border-top: 0.2px solid white;
+    border-width: thin;
+    margin-top: 15px;
+    margin-left: 15%;
 }
 
 
@@ -468,7 +490,7 @@ hr{
     .hometxt1{
         clear: both;
         position: relative;
-        bottom: 15rem;
+        bottom: 19rem;
     }
     .homeimg3{
         position: relative;
@@ -522,6 +544,18 @@ hr{
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+    .teamcover{
+        margin-top: 0rem;
+    }
+    .abouthero{
+        margin-top: 0rem;
+    }
+    .carehero{
+        margin-top: 0rem;
+    }
+    .contacthero{
+        margin-top: 0rem;
     }
     .teamhero{
         position: relative;
@@ -640,5 +674,20 @@ hr{
     .webbtn {
         width: 124%;
         padding: 7px;
+    }
+  }
+  @media screen and (max-width: 400px) {
+    .homeimg3{
+        position: relative;
+        top: -320px;
+        height: 47%;
+        width: 50%;
+    }
+    .homeservices{
+        margin-top: -15rem;
+    }
+    .servtab {
+        display: flex;
+        flex-direction: column;
     }
   }

@@ -46,7 +46,7 @@ function Care() {
                         <div className="caresect2 p-5 mr-3 ">
                             <img className="m-0 carecardimg" src="./homepics/careimg1.png" alt="" />
                             <h3 className="cardheading">{t("part91")}</h3>
-                            <hr />
+                            <div className='hrr'><span class='line'></span></div>
                             <p className="careparagh">{t("part92")}
                             </p>
                             <div className="centerbt">
@@ -56,7 +56,7 @@ function Care() {
                         <div className="caresect2 p-5 mr-3">
                             <img className="m-0 carecardimg" src="./homepics/card.png" alt="" />
                             <h3 className="cardheading">{t("part91")}</h3>
-                            <hr />
+                            <div className='hrr'><span class='line'></span></div>
                             <p>{t("part92")}
                             </p>
                             <div className="centerbt">
@@ -66,7 +66,7 @@ function Care() {
                         <div className="caresect2 p-5 mr-3">
                             <img className="m-0 carecardimg" src="./homepics/card1.png" alt="" />
                             <h3 className="cardheading">{t("part91")}</h3>
-                            <hr />
+                            <div className='hrr'><span class='line'></span></div>
                             <p>{t("part92")}
                             </p>
                             <div className="centerbt">
@@ -78,7 +78,7 @@ function Care() {
                         <div className="caresect2 p-5 mr-3">
                             <img className="m-0 carecardimg" src="./homepics/card2.png" alt="" />
                             <h3 className="cardheading">{t("part91")}</h3>
-                            <hr />
+                            <div className='hrr'><span class='line'></span></div>
                             <p>{t("part92")}
                             </p>
                             <div className="centerbt">
@@ -88,7 +88,7 @@ function Care() {
                         <div className="caresect2 p-5 mr-3">
                             <img className="m-0 carecardimg" src="./homepics/card3.png" alt="" />
                             <h3 className="cardheading">{t("part91")}</h3>
-                            <hr />
+                            <div className='hrr'><span class='line'></span></div>
                             <p>{t("part92")}
                             </p>
                             <div className="centerbt">
@@ -98,7 +98,7 @@ function Care() {
                         <div className="caresect2 p-5 mr-3">
                             <img className="m-0 carecardimg" src="./homepics/card4.png" alt="" />
                             <h3 className="cardheading">{t("part91")}</h3>
-                            <hr />
+                            <div className='hrr'><span class='line'></span></div>
                             <p>{t("part92")}
                             </p>
                             <div className="centerbt">
