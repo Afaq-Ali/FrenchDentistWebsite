@@ -599,7 +599,7 @@
     .socialicons{
         display: flex;
         justify-content: center;
-        margin-bottom: 4px;
+        margin-bottom: 16px;
     }
     .caretext{
         font-size: 25px;
@@ -609,6 +609,8 @@
         position: relative;
         top: -370px;
         height: 360px;
+        top: -451px;
+        height: 373px;
     }
     .subhead{
         font-size: 15px;
@@ -638,6 +640,23 @@
     .fontsizefooter1{
         font-size: 30px;
     }
+    .servtab {
+        display: flex;
+        flex-direction: column;
+    }
+    .homefullwid{
+        margin-left: 40%;
+    }
+  }
+  @media screen and (max-width: 500px) {
+    .homeimg3{
+        top: -356px;
+        height: 289px;
+        width: 174px;
+}
+    .homeservices{
+        margin-top: -18rem;
+    } 
   }
   @media screen and (max-width: 380px) {
     .secttext{
@@ -652,9 +671,6 @@
         display: flex;
         flex-direction: column;
         width: 100%;
-    }
-    .homefullwid{
-        margin-left: 79px;
     }
     .iphone{
         position: relative;

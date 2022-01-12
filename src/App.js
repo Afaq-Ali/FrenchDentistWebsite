@@ -80,17 +80,17 @@ export default function App() {
               <div className="fontsizefooter1">{t("part9")}</div>
             </div>
             <span className="hrfooterr"></span>
-            <div className="footeradd">
-              <div>
+            <div className="footeradd row">
+              <div className="col-lg-3">
                 <div className="text-justify mr-5">
                   <h4>{t("part10")}</h4>
                   {t("part11")}</div>
               </div>
-              <div className="text-justify mr-5">
+              <div className="text-justify mr-5 col-lg-3">
                 <h4>{t("part12")}</h4>
                 {t("part13")}
               </div>
-              <div className="text-justify mr-5">
+              <div className="text-justify mr-5 col-lg-3">
                 <h4>{t("part14")}</h4>
                 {t("part15")}
               </div>
