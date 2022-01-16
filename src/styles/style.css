@@ -1,3 +1,9 @@
+/* .zindexx{
+    background-color: white;
+} */
+.mttxt{
+    margin-top: 8%;
+}
 .carousel-control-next,
 .carousel-control-prev /*, .carousel-indicators */ {
     filter: invert(100%);
@@ -16,6 +22,9 @@
     width: 100%;
     display: flex;
     justify-content: flex-end;
+}
+.navbarrr{
+    margin-top: 3rem;
 }
 
 .navelem{
@@ -60,6 +69,9 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    z-index: 9999999;
 }
 .abouthero{
     margin-top: -4.3rem;
@@ -90,7 +102,7 @@
     top: 18%;
     width: 100%;
     float: right;
-    height: 58vh;
+    height: 120vh;
     background-color: rgba(255, 253, 253, 0.2);
     margin-top: -4.3rem;
 }
@@ -98,9 +110,9 @@
     float: right;
     clear: both;
     position: relative;
-    bottom: 20rem;
+    bottom: 25rem;
     width: 50%;
-    padding: 0 5% 0;
+    padding: 2% 5% 0;
 }
 .section1{
     clear: both;
@@ -128,6 +140,7 @@
     background-color: #FAFAFA;
     padding: 10% 15%;
     margin-top: -40rem;
+    padding-bottom: 33px;
 }
 .servtab{
     display: flex;
@@ -142,6 +155,7 @@
 .homebilling{
     background-color: #FAFAFA;
     padding: 10%;
+    /* margin-bottom: 90vh; */
 }
 .billingsect{
     display: flex;
@@ -329,11 +343,17 @@
 .footer{
     clear: both;
     color: white;
+    /* z-index: -1;
+    position: fixed;
+    bottom: 0px;
+    height: 87%; */
 }
 .footeradd{
     display: flex;
     flex-direction: row;
     padding: 0 7% 3%;
+    justify-content: center;
+    width: 100%;
 }
 .upperfooter{
     background-color: #8498A4;
@@ -372,7 +392,6 @@
     margin-top: 15px;
     margin-left: 15%;
 }
-
 
 @media screen and (max-width: 1050px) {
     .homescroll{
@@ -706,4 +725,17 @@
         display: flex;
         flex-direction: column;
     }
+    .webbtn{
+        width: 50%;
+    }
+    .upperheader{
+        height: 15%;
+    }
+    .navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl{
+        margin-top: 35%;
+    }
+    .text-justify {
+        margin-bottom: 10%;
+    }
+
   }

@@ -1,26 +1,26 @@
 import React from 'react'
 import '../styles/style.css'
 import { useTranslation } from "react-i18next";
-import Video from '../homevideo.mp4'
+import Video from '../home3.mp4'
 
 function Home() {
     const { t } = useTranslation();
     return (
         <div >
-            <div>
+            <div className='homevada zindexx'>
                 <div className="herosection"></div>
                 <video className="heroimg" autoPlay muted loop>
                     <source src={Video} type="video/mp4"/>
                 </video>
             </div>
 
-            <div className="hometxt1 text-justify">
-                <div className="caretext maintxthome font-weight-bold mt-2">{t("part24")}<br></br> {t("part25")}</div>
+            <div className="hometxt1 text-justify zindexx">
+                <div className="caretext maintxthome font-weight-bold">{t("part24")}<br></br> {t("part25")}</div>
                 <h5 className="subhead mt-2">{t("part26")}</h5>
                 <div className="webbtn ">{t("part30")} </div>
             </div>
             
-            <div className="section1">
+            <div className="section1 zindexx">
                 <div className="secttext">
                     <div className="caretext paddinghome text-center font-weight-bolder ml-5">{t("part27")}</div>
         
@@ -87,14 +87,14 @@ function Home() {
                 </div>
             </div>
 
-            <div>
+            <div className='zindexx pt-5 pb-3'>
             <div className="caretext text-center font-weight-bolder mt-5 ">{t("part44")}</div>
                 <span class='line'></span>
 
             </div>
 
             {/* carousal efect */}
-                <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
+            <div id="carouselExampleControls" className="carousel slide zindexx" data-ride="carousel">
             <div className="carousel-inner">
                 <div className="carousel-item active">
                 <div className="homescroll">

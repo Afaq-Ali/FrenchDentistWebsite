@@ -7,7 +7,7 @@ import Button from "@material-ui/core/Button";
 import Popover from "@material-ui/core/Popover";
 import List from "@material-ui/core/List";
 import ListItem from "@material-ui/core/ListItem";
-import ListSubheader from "@material-ui/core/ListSubheader";
+// import ListSubheader from "@material-ui/core/ListSubheader";
 
 const languageMap = {
   en: { label: "English", dir: "ltr", active: true },
@@ -45,7 +45,7 @@ const LanguageSelect = () => {
       >
         <div>
           <List>
-            <ListSubheader>{t("select_language")}</ListSubheader>
+            {/* <ListSubheader>{t("select_language")}</ListSubheader> */}
             {Object.keys(languageMap)?.map(item => (
               <ListItem
                 button

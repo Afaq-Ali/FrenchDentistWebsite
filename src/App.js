@@ -32,9 +32,9 @@ export default function App() {
           </div>
         </div>
 
-        <div >
+        <div>
           <Navbar collapseOnSelect expand="lg" >
-              <Container>
+              <Container className="navbarrr">
                 <Navbar.Brand className="mainfrlink" href="/">{t("part2")}</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
