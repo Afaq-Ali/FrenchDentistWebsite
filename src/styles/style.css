@@ -1,5 +1,6 @@
 /* .zindexx{
     background-color: white;
+    z-index: 0;
 } */
 .mttxt{
     margin-top: 8%;
@@ -72,6 +73,7 @@
     position: fixed;
     width: 100%;
     z-index: 9999999;
+    transition: 0.5s ease-out;
 }
 .abouthero{
     margin-top: -4.3rem;
@@ -128,13 +130,14 @@
     width: 400px;
     height: auto;
     padding-top: 10%;
+    z-index: 1000000000;
 }
 .homeimg3{
     position: relative;
     top: -50%;
     left: 40%;
     height: 40%;
-    z-index: -111;
+    z-index: -1;
 }
 .homeservices{
     background-color: #FAFAFA;
@@ -345,7 +348,7 @@
     color: white;
     /* z-index: -1;
     position: fixed;
-    bottom: 0px;
+    bottom: 38%;
     height: 87%; */
 }
 .footeradd{
@@ -373,6 +376,9 @@
 }
 .fontsizefooter1{
     font-size: 40px;
+}
+.clr{
+    color: white !important;
 }
 .hrfooterr {
     display: inline-block;

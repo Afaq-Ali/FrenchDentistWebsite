@@ -17,10 +17,19 @@ import { Container, Navbar, Nav } from "react-bootstrap";
 export default function App() {
   const { t } = useTranslation();
 
- 
+  window.onscroll = function(e) { 
+    var scrollY = window.pageYOffset || document.documentElement.scrollTop;
+    var header = document.querySelector('header');
+
+    scrollY <= this.lastScroll 
+      ? header.style.visibility = 'visible'
+      : header.style.visibility = 'hidden'; 
+
+    this.lastScroll = scrollY ;
+  }
   return (
     <>
-        <div className="upperheader">
+        <header className="upperheader">
           <div className="miniheadertxt">
             <img className="firstimg" src="./homepics/Icon.png" alt="" />
             {t("part1")}
@@ -30,7 +39,7 @@ export default function App() {
             <img className="icon" src="./homepics/Twitter.png" alt="" />
             <img className="icon" src="./homepics/youtube.png" alt="" />
           </div>
-        </div>
+        </header>
 
         <div>
           <Navbar collapseOnSelect expand="lg" >
@@ -99,13 +108,13 @@ export default function App() {
           <div className="lowerfooter">
             <div>
               <ul className="footernav">
-                <li className="mr-3 mt-5">{t("part16")}</li>
-                <li className="mr-3 mt-5">{t("part17")}</li>
-                <li className="mr-3 mt-5">{t("part18")}</li>
-                <li className="mr-3 mt-5">{t("part19")}</li>
-                <li className="mr-3 mt-5">{t("part20")}</li>
-                <li className="mr-3 mt-5">{t("part21")}</li>
-                <li className="mr-3 mt-5">{t("part22")}</li>
+                  <Nav.Link className="clr mr-3 mt-5" href="/team">{t("part16")}</Nav.Link>
+                  <Nav.Link className="clr mr-3 mt-5" href="/contactus">{t("part17")}</Nav.Link>
+                  <Nav.Link className="clr mr-3 mt-5" href="/blog">{t("part18")}</Nav.Link>
+                  <Nav.Link className="clr mr-3 mt-5" href="/care">{t("part19")}</Nav.Link>
+                  <Nav.Link className="clr mr-3 mt-5" href="/">{t("part20")}</Nav.Link>
+                  <Nav.Link className="clr mr-3 mt-5" href="/about">{t("part21")}</Nav.Link>
+                  <Nav.Link className="clr mr-3 mt-5" href="/contactus">{t("part22")}</Nav.Link>
               </ul>
             </div>
             <hr className="hrfooter1" />

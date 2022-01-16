@@ -94,7 +94,7 @@ function Home() {
             </div>
 
             {/* carousal efect */}
-            <div id="carouselExampleControls" className="carousel slide zindexx" data-ride="carousel">
+            <div id="carouselExampleControls" className="carousel slide zindexx" data-ride="carousel"  data-interval="2000">
             <div className="carousel-inner">
                 <div className="carousel-item active">
                 <div className="homescroll">
