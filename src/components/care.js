@@ -1,6 +1,7 @@
 import React from 'react'
 import '../styles/style.css'
 import { useTranslation } from "react-i18next";
+import { Container, Navbar, Nav } from "react-bootstrap";
 
 function Care() {
     const { t } = useTranslation();
@@ -50,7 +51,7 @@ function Care() {
                             <p className="careparagh">{t("part92")}
                             </p>
                             <div className="centerbt">
-                                <div className="webbtn ">{t("part93")}</div>
+                            <Nav.Link className="webbtn " href="/blog">{t("part93")}</Nav.Link>
                             </div>
                         </div>
                         <div className="caresect2 p-5 mr-3">
@@ -60,7 +61,7 @@ function Care() {
                             <p>{t("part92")}
                             </p>
                             <div className="centerbt">
-                                <div className="webbtn ">{t("part93")}</div>
+                            <Nav.Link className="webbtn " href="/blog">{t("part93")}</Nav.Link>
                             </div>
                         </div>
                         <div className="caresect2 p-5 mr-3">
@@ -70,7 +71,7 @@ function Care() {
                             <p>{t("part92")}
                             </p>
                             <div className="centerbt">
-                                <div className="webbtn ">{t("part93")}</div>
+                            <Nav.Link className="webbtn " href="/blog">{t("part93")}</Nav.Link>
                             </div>
                         </div>
                     </div>
@@ -82,7 +83,7 @@ function Care() {
                             <p>{t("part92")}
                             </p>
                             <div className="centerbt">
-                                <div className="webbtn ">{t("part93")}</div>
+                            <Nav.Link className="webbtn " href="/blog">{t("part93")}</Nav.Link>
                             </div>
                         </div>
                         <div className="caresect2 p-5 mr-3">
@@ -92,7 +93,7 @@ function Care() {
                             <p>{t("part92")}
                             </p>
                             <div className="centerbt">
-                                <div className="webbtn ">{t("part93")}</div>
+                            <Nav.Link className="webbtn " href="/blog">{t("part93")}</Nav.Link>
                             </div>
                         </div>
                         <div className="caresect2 p-5 mr-3">
@@ -102,7 +103,7 @@ function Care() {
                             <p>{t("part92")}
                             </p>
                             <div className="centerbt">
-                                <div className="webbtn ">{t("part93")}</div>
+                            <Nav.Link className="webbtn " href="/blog">{t("part93")}</Nav.Link>
                             </div>
                         </div>
                     </div>

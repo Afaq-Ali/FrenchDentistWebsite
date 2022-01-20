@@ -38,10 +38,10 @@
 
 .webbtn{
     background-color: #E9CCAE;
-    color: white;
+    color: white !important;
     padding: 2% 4%;
     border-radius: 50px;
-    width: 40%;
+    width: 50%;
     text-align: center;
 }
 .line {
@@ -51,7 +51,7 @@
     border-top: 0.2px solid #183047;
     border-width: initial;
     margin-top: 15px;
-    margin-left: 44%;
+    margin-left: 40%;
   }
   .hrr{
       width: 70%;
@@ -206,7 +206,7 @@
     position: relative;
     bottom: 550px;
     width: 40%;
-    margin: 0 5%;
+    margin: 0 5% -15%;
 }
 .teamsect{
     background-color: #F6F6F9;
@@ -246,17 +246,19 @@
  .caretext{
      font-size: 40px;
      color: #183047;
+     padding: 0 10%
  }
  .carecard{
      display: flex;
      flex-direction: row;
      justify-content: center;
+     padding-bottom: 2%;
  }
  .carecardimg{
     position: relative;
-    top: -48px;
+    top: -50px;
     left: -49px;
-    width: 131%;
+    width: 132% !important;
  }
  .cardheading{
      color: #014F86;
@@ -278,6 +280,7 @@
      width: 35%;
      left:8%;
      padding: 2%;
+     margin-bottom: -20%;
      position: relative;
      bottom: 26rem;
  }
@@ -340,8 +343,7 @@
      background-color: #F6F6F9;
  }
  .conmap{
-     width: 90%;
-     margin: 55% 0% 20% 0;
+     margin: 21% 5% 10% 0;
  }
 .footer{
     clear: both;
@@ -400,6 +402,9 @@
 }
 
 @media screen and (max-width: 1050px) {
+    .carecardimg{
+        width: 145% !important;
+     }
     .homescroll{
         display: flex;
         flex-direction: column;
@@ -450,6 +455,9 @@
   }
 
   @media screen and (max-width: 1000px) {
+    .carecardimg {
+        width: 148% !important;
+    }
     .herosection{
         height: 136vh;
         margin-top: -3rem;
@@ -511,7 +519,20 @@
         margin-top: -3.5rem;
     }
   }
+  @media screen and (max-width: 950px) {
+    .carecardimg {
+        width: 152% !important;
+    }
+  }
+  @media screen and (max-width: 900px) {
+    .carecardimg {
+        width: 157% !important;
+    }
+  }
   @media screen and (max-width: 800px) {
+    .carecardimg {
+        width: 122% !important;
+    }
     .hometxt1{
         clear: both;
         position: relative;
@@ -529,7 +550,7 @@
         width: 100%;
     }
     .caresect{
-        width: 45%;
+        width: 70%;
         text-align: center;
         margin: 2% 0;
      } 
@@ -541,7 +562,7 @@
         width: 100%;
     }
     .caresect2{
-        width: 50%;
+        width: 70%;
         text-align: center;
         margin-bottom: 10px;
     }
@@ -560,6 +581,9 @@
     }
   }
   @media screen and (max-width: 700px) {
+    .carecardimg {
+        width: 125% !important;
+    }
     .homeimg3{
             position: relative;
             top: -550px;
@@ -602,13 +626,28 @@
     .blogbtnsty{
         margin-top: 2%;
     }
+    .blogbtnsty{
+        width: 50%;
+        padding: 4% 0;
+    }
     .homeservices{
         background-color: #FAFAFA;
         padding: 10% 15%;
         margin-top: -35rem;
     }
   }
+  @media screen and (max-width: 650px) {
+    .carecardimg {
+        width: 128% !important;
+    }
+  }
   @media screen and (max-width: 577px) {
+    .webbtn {
+        width: 70%;
+    }
+    .carecardimg {
+        width: 132% !important;
+    }
     .upperheader{
             display: flex;
             flex-direction: column;
@@ -674,6 +713,12 @@
     }
   }
   @media screen and (max-width: 500px) {
+    .webbtn {
+        width: 80%;
+    }
+    .carecardimg {
+        width: 138% !important;
+    }
     .homeimg3{
         top: -356px;
         height: 289px;
@@ -684,6 +729,10 @@
     } 
   }
   @media screen and (max-width: 380px) {
+
+    .carecardimg {
+        width: 207% !important;
+    }
     .secttext{
         margin-top: -50%;
     } 
@@ -706,7 +755,7 @@
         width: 170%;
     }
     .carecardimg{
-         width: 206%;
+         width: 206% !important;
     }
     .careparagh{
     width: 180%;
@@ -717,7 +766,20 @@
         padding: 7px;
     }
   }
+  @media screen and (max-width: 460px) {
+    .carecardimg {
+        width: 143% !important;
+    }
+  }
   @media screen and (max-width: 400px) {
+    .herotext{
+        width: 85%;
+        bottom: 0rem;
+    }
+
+    .carecardimg {
+        width: 153% !important;
+    }
     .homeimg3{
         position: relative;
         top: -320px;
@@ -732,7 +794,7 @@
         flex-direction: column;
     }
     .webbtn{
-        width: 50%;
+        width: 80%;
     }
     .upperheader{
         height: 15%;
@@ -742,6 +804,10 @@
     }
     .text-justify {
         margin-bottom: 10%;
+    }
+    .socialicons{
+        height: 20%;
+        padding-bottom: 20px;
     }
 
   }

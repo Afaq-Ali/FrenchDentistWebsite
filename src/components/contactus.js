@@ -1,9 +1,21 @@
 import React from 'react'
 import '../styles/style.css'
 import { useTranslation } from "react-i18next";
+import { useGoogleMaps } from "react-hook-google-maps";
 
 function Contactus() {
     const { t } = useTranslation();
+
+    const { ref, map, google } = useGoogleMaps(
+        // Use your own API key, you can get one from Google (https://console.cloud.google.com/google/maps-apis/overview)
+        "AIzaSyC4Z5Qz97EWcoCczNn2IcYvaYG0L9pe6Rk",
+        // NOTE: even if you change options later
+        {
+          center: { lat: 0, lng: 0 },
+          zoom: 3,
+        },
+      );
+
     return (
         <div>
             <div>
@@ -116,9 +128,10 @@ function Contactus() {
                 </div>
             </div>
             </div>
-            <div>
+            {/* <div>
                 <img className="conmap" src="./homepics/map.png" alt="" />
-            </div>
+            </div> */}
+            <div className="conmap" ref={ref} style={{ width: 600, height: 350 }} />;
             </div>
         </div>
     )
