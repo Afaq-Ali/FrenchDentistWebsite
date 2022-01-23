@@ -7,11 +7,11 @@ function Blog() {
     return (
         <div className="ml-5 mr-5 blogpage">
             <div>
-                <img className="  w-100" src="./homepics/blog.png" alt="" />
+                <img className="w-100" src="./homepics/blog.png" alt="" />
                 <div className="herotext">
                     <h2>{t("part94")}</h2>
                     <div>{t("part95")}</div>
-                        <div className="webbtn mt-5">{t("part93")}</div>
+                    <div className="webbtn mt-5">{t("part93")}</div>
                 </div>
             </div>
 

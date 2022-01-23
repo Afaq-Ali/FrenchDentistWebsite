@@ -51,28 +51,28 @@ function Contactus() {
 
             <div className="contactdetails">
                 <div className="contactsect mt-5">
-                    <img className="mr-5" src="./homepics/appointment.png" alt="" />
+                    <img className="mr-5 imgggg" src="./homepics/appointment.png" alt="" />
                     <div className="mt-3">
                         <h5 className="mb-3">{t("part114")}</h5>
                         <h6 className="pcon">{t("part115")}</h6>
                     </div>
                 </div>
                 <div className="contactsect  mt-5">
-                    <img className="mr-5" src="./homepics/payment-mehotd.png" alt="" />
+                    <img className="mr-5 imgggg" src="./homepics/payment-mehotd.png" alt="" />
                     <div className="mt-3">
                         <h5 className="mb-3">{t("part116")}</h5>
                         <h6 className="pcon">{t("part117")}</h6>
                     </div>
                 </div>
                 <div className="contactsect  mt-5">
-                    <img className="mr-5" src="./homepics/affection 1.png" alt="" />
+                    <img className="mr-5 imgggg" src="./homepics/affection 1.png" alt="" />
                     <div className="mt-3">
                         <h5 className="mb-3">{t("part118")}</h5>
                         <h6 className="pcon">{t("part119")}</h6>
                     </div>
                 </div>
                 <div className="contactsect  mt-5">
-                    <img className="mr-5" src="./homepics/affection 1.png" alt="" />
+                    <img className="mr-5 imgggg" src="./homepics/affection 1.png" alt="" />
                     <div className="mt-3">
                         <h5 className="mb-3">{t("part118")}</h5>
                         <h6 className="pcon">{t("part119")}</h6>
@@ -131,7 +131,7 @@ function Contactus() {
             {/* <div>
                 <img className="conmap" src="./homepics/map.png" alt="" />
             </div> */}
-            <div className="conmap" ref={ref} style={{ width: 600, height: 350 }} />;
+            <div className="conmap" ref={ref} />;
             </div>
         </div>
     )
